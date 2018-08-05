@@ -1,12 +1,5 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
+require "CLI/version"
 
-require_relative "./version"
-require_relative "./curling_iron_review_cli"
-require_relative "./scraper"
-
-
-module CurlingIronReview
+module CLI
   # Your code goes here...
 end
